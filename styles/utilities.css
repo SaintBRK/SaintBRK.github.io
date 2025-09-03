@@ -1,0 +1,21 @@
+/* Вспомогательные. Они не создают структуру, а дополняют */
+ul {
+    margin-left: 50px;
+}
+
+li span {
+    font-style: italic;
+}
+
+.del {
+    text-decoration: line-through;
+}
+
+.bold-italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul ul {
+    font-style: italic;
+}

@@ -1,0 +1,50 @@
+/* Макет. Структура страницы. То как элементы располагаются на странице */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    background-color: rgba(255, 255, 255, 0.35);
+
+    padding: 40px;
+
+    border-radius: 30px;
+    border-left: 3px solid #8a0c9b;
+    box-shadow: 20px 15px 5px #8a0c9b;
+}
+
+nav {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    padding: 40px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    border-radius: 30px;
+    border-left: 3px solid #8a0c9b;
+
+    box-shadow: 10px 5px 5px #8a0c9b;
+}
+
+#task {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#task p {
+    flex: 1;
+    min-width: 300px;
+
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+}
+
+section {
+    margin: 40px 0;
+}

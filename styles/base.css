@@ -1,0 +1,23 @@
+/* Основа/База. Фундамент всех стилей.*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 2;
+    color: #333;
+
+    background: url('../src/background-body.jpg');
+
+    padding: 100px;
+}
