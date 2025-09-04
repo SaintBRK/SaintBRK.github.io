@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Общая информация</title>
         <link rel="stylesheet" href="./styles/base.css">
         <link rel="stylesheet" href="./styles/components.css">
         <link rel="stylesheet" href="./styles/layout.css">
         <link rel="stylesheet" href="./styles/utilities.css">
+        <title>Общая информация</title>
     </head>
 
     <body>
@@ -24,7 +24,7 @@
         <div class="container">
             <h1>Информация обо мне</h1>
 
-            <div id="task">
+            <div class="task-info">
                 <p>
                     Ниже будет представлена информация обо мне.
                     Чтобы подойти к рассказу более структурированно,
@@ -34,16 +34,16 @@
                 </p>
                 
                 <img
-                    src="./src/my-photo.jpg"
-                    alt="my-photo"
-                    id="my-photo"
+                    src="./img/my-photo.jpg"
+                    alt="Смотрю в сторону в очках на фоне моря"
+                    class="my-photos"
                 >
             </div>
 
             <section>
-                <h2 id="first">Краткая информация</h2>
+                <h2>Краткая информация</h2>
 
-                <div id="short-info">
+                <div>
                     <p>
                         Меня зовут Рустам, мне 25 лет, являюсь студентом Южного Федерального Университета.
                         Стажируюсь в компанию "Lachestry" в качестве "frontend-разработчика".
@@ -54,7 +54,7 @@
             </section>
 
             <section>
-                <h2 id="university">Место учебы</h2>
+                <h2>Место учебы</h2>
 
                 <p>
                     Южный федеральный университет (ЮФУ) — один из ведущих университетов России, 
@@ -71,7 +71,9 @@
                     Если кто-то не знает что это такое, можно почитать поподробнее
                     <a
                         href="https://sfedu.ru/press-center/news/63628"
-                        target="_blank">здесь
+                        target="_blank"
+                    >
+                        здесь
                     </a>
                 </p>
 
@@ -137,7 +139,7 @@
             </section>
 
             <section>
-                <h2 id="speciality">Специальность</h2>
+                <h2>Специальность</h2>
 
                 <p>Я [Рустам] являюсь студентом 5 курса специальности <span class="bold-italic">"Информационная безопасность телекоммуникационных систем"</span></p>
 

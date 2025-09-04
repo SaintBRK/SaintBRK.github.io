@@ -1,15 +1,14 @@
 /* Макет. Структура страницы. То как элементы располагаются на странице */
 .container {
-    max-width: 1200px;
     margin: 0 auto;
-
-    background-color: rgba(255, 255, 255, 0.35);
-
     padding: 40px;
+
+    max-width: 1200px;
 
     border-radius: 30px;
     border-left: 3px solid #8a0c9b;
     box-shadow: 20px 15px 5px #8a0c9b;
+    background-color: rgba(255 255 255 / .35);
 }
 
 nav {
@@ -19,24 +18,23 @@ nav {
     width: 300px;
     padding: 40px;
 
-    background-color: rgba(255, 255, 255, 0.5);
-
     border-radius: 30px;
     border-left: 3px solid #8a0c9b;
-
     box-shadow: 10px 5px 5px #8a0c9b;
+
+    background-color: rgba(255 255 255 / .5);
 }
 
-#task {
+.task-info {
+    margin-bottom: 30px;
+    gap: 10px;
+
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-
-    gap: 10px;
-    margin-bottom: 30px;
 }
 
-#task p {
+.task-info p {
     flex: 1;
     min-width: 300px;
 

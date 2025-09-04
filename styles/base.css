@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
 }
 
@@ -12,12 +13,12 @@ html {
 }
 
 body {
+    padding: 100px;
+
     font-family: 'Open Sans', 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 2;
     color: #333;
 
-    background: url('../src/background-body.jpg');
-
-    padding: 100px;
+    background: url('../img/background-body.jpg');
 }
