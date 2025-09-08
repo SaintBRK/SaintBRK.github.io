@@ -1,0 +1,38 @@
+body {
+    background: url('../img/travolta.jpg') no-repeat;
+    background-size: cover;
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background: rgba(0 0 0 /.7);
+}
+
+.err404 p{
+    position: relative;
+    margin-top: 400px;
+
+    text-align: center;
+    font-size: 200px;
+    color: rgb(255 255 255);
+}
+
+.back-link {
+    position: absolute;
+    top: 700px;
+    left: 730px;
+
+    text-decoration: none;
+    font-size: 48px;
+    color: rgb(255 255 255);
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
